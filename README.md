@@ -11,7 +11,7 @@ You can follow the tutorial at the [Pusher blog](#).
 
 ## Installation
 1. Clone this repository and `cd` into it.
-2. Create a Pusher app and replace your key in `src/App.js`.
+2. Create a Pusher app and replace your key and cluster in `src/App.js`.
 3. Execute `npm install` or `yarn` to install the dependencies.
 4. Execute `npm start` to start the development server and go to `http://localhost:5000`.
 5. Start signing up and logging in the Auth0 app.

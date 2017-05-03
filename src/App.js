@@ -17,6 +17,7 @@ class App extends Component {
 
   componentDidMount() {
     this.pusher = new Pusher('<INSERT_YOUR_PUSHER_APP_KEY>', {
+	  cluster: '<INSERT_YOUR_PUSHER_APP_CLUSTER>',
       encrypted: true,
     });
     this.channel = this.pusher.subscribe('auth0');
